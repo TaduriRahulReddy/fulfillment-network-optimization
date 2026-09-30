@@ -1,0 +1,34 @@
+{
+  "samples_per_network": 1000,
+  "mean_growth": 0.15,
+  "shared_log_sigma": 0.1,
+  "regional_log_sigma": 0.1,
+  "seed": 42,
+  "solver": "CBC",
+  "capacity_convention": "Actual sampled weekly demand; no extra peak multiplier.",
+  "routing_policy": "Fixed facilities; shipments optimized after demand is known.",
+  "networks": {
+    "Georgia_only": {
+      "successful_weeks": 943,
+      "infeasible_weeks": 57,
+      "success_rate": 0.943,
+      "success_rate_95pct_interval": [
+        0.9268626022720123,
+        0.9557467655804457
+      ],
+      "mean_weekly_variable_cost_USD_given_feasible": 190572.22362639522,
+      "mean_max_utilization_given_feasible": 0.901273883877374
+    },
+    "Texas_plus_Georgia": {
+      "successful_weeks": 1000,
+      "infeasible_weeks": 0,
+      "success_rate": 1.0,
+      "success_rate_95pct_interval": [
+        0.9961731014136095,
+        1
+      ],
+      "mean_weekly_variable_cost_USD_given_feasible": 170495.73844211863,
+      "mean_max_utilization_given_feasible": 0.7933685702777777
+    }
+  }
+}
