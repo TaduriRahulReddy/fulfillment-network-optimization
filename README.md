@@ -1,6 +1,6 @@
 # Fulfillment Network Optimization
 
-A Wayfair-inspired operations analytics project using Python,
+A operations analytics project using Python,
 PuLP 4 and the free CBC solver.
 
 All data is synthetic. This project is not affiliated with Wayfair
