@@ -3,8 +3,7 @@
 A operations analytics project using Python,
 PuLP 4 and the free CBC solver.
 
-All data is synthetic. This project is not affiliated with Wayfair
-and does not use internal company data.
+All data is synthetic.
 
 ## Business question
 
